@@ -9,9 +9,39 @@ const Filter = () => {
        </div>
        <div className="py-4 flex flex-col mx-auto justify-center items-center">
             <ul className="uppercase ">
-                <li className="py-4 text-sm md:text-xl font-bold border-b border-gray-300 hover:scale-75 ease-in duration-100">Pricing</li>            
-                <li className="py-4 text-sm md:text-xl font-bold border-b border-gray-300 hover:scale-75 ease-in duration-100">Category</li>
-                <li className="py-4 text-sm md:text-xl font-bold border-b border-gray-300 hover:scale-75 ease-in duration-100">Rating</li>
+                <li className="py-4 text-sm md:text-xl font-bold border-b border-gray-300 ">Pricing</li> 
+                <ul className=''>
+                <div className='flex gap-2'>
+                <input type="checkbox" />
+                  <li className='py-2 hover:scale-75 ease-in duration-100'>high to low</li>
+                  </div>
+                  <div className='flex gap-2'>
+                  <input type="checkbox" />
+                  <li className='py-2 hover:scale-75 ease-in duration-100'>low to high</li>
+                  </div>
+                </ul>           
+                <li className="py-4 text-sm md:text-xl font-bold border-b border-gray-300 ">Category</li>
+                <ul>
+                <div className='flex gap-2'>
+                <input type="checkbox" />
+                  <li className='py-2 hover:scale-75 ease-in duration-100'>small to x-large</li>
+                  </div>
+                  <div className='flex gap-2'>
+                  <input type="checkbox" />
+                  <li className='py-2 hover:scale-75 ease-in duration-100'>x-large to small</li>
+                  </div>
+                </ul>   
+                <li className="py-4 text-sm md:text-xl font-bold border-b border-gray-300 ">Rating</li>
+                <ul>
+                <div className='flex gap-2'>
+                <input type="checkbox" />
+                  <li className='py-2 hover:scale-75 ease-in duration-100'>low</li>
+                  </div>
+                  <div className='flex gap-2'>
+                  <input type="checkbox" />
+                  <li className='py-2 hover:scale-75 ease-in duration-100'>high</li>
+                  </div>
+                </ul>   
             </ul>
             </div>
           </div>
