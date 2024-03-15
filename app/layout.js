@@ -5,8 +5,8 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Dominoz Pizza",
-  description: "Dominoz Pizza",
+  title: "MR Pizza",
+  description: "Mr Pizza",
 };
 
 export default function RootLayout({ children }) {

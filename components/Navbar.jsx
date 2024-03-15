@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]" >
     <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <h1 className='text-sm md:text-4xl cursor-pointer'>Product</h1>
+        <h1 className='text-sm md:text-4xl cursor-pointer'>Mr Pizza</h1>
         <ul className='hidden md:flex gap-8'>
             <li className='font-bold text-xl hover:scale-75 ease-in duration-150'>Home</li>
             <li className='font-bold text-xl hover:scale-75 ease-in duration-150'>About</li>
